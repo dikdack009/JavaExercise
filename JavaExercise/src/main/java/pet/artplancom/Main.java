@@ -4,7 +4,7 @@ package pet.artplancom;
 public class Main {
     public static void main(String[] args) {
         if(args.length == 0){
-            throw new RuntimeException("You need to enter the line like:\n\t\"java -jar JavaExercise-1.0-SNAPSHOT.jar {some string}\"");
+            throw new RuntimeException("You need to enter the line like:\n\t\"java -jar JavaExercise-1.1-SNAPSHOT.jar {some string}\"");
         }
         String input = args[0];
 
